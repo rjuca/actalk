@@ -1,0 +1,83 @@
+{
+	"data": [
+		{"id": 101, "name": "funis", "size": "0KB",
+		"children": [
+			{"id": 1001, "name": "littera", "size": "0KB",
+			"children": [
+				{"id": 10001, "name": "opus", "size": "0KB",
+				"children": [
+					{"id": 100001, "name": "quadrum", "size": "0KB",
+					"children": [
+						{"id": 1000001, "name": "septimus", "size": "0KB",
+						"children": [
+							{"id": 10000001, "name": "viverra", "size": "1KB"},
+							{"id": 10000002, "name": "nonagesimus", "size": "2KB"},
+							{"id": 10000003, "name": "omen", "size": "3KB"},
+							{"id": 10000004, "name": "dorsum", "size": "4KB"},
+							{"id": 10000005, "name": "capanna", "size": "8KB"},
+							{"id": 10000006, "name": "beatus", "size": "19KB"}
+						]
+						},
+						{"id": 1000002, "name": "laxus", "size": "13KB"}
+					]
+					},
+					{"id": 100002, "name": "opusculum", "size": "0KB",
+					"children": [
+						{"id": 2000001, "name": "rostrum", "size": "0KB",
+						"children": [
+							{"id": 20000001, "name": "vastus", "size": "20KB"},
+							{"id": 20000002, "name": "paluster", "size": "1KB"},
+							{"id": 20000003, "name": "mendicus", "size": "2KB"},
+							{"id": 20000004, "name": "labrum", "size": "2KB"},
+							{"id": 20000005, "name": "gracilis", "size": "4KB"}
+						]
+						},
+						{"id": 2000002, "name": "dextimus", "size": "80KB"}
+					]
+					},
+					{"id": 100003, "name": "capillus", "size": "0KB",
+					"children": [
+						{"id": 3000001, "name": "butyrum", "size": "0KB",
+						"children": [
+							{"id": 30000001, "name": "febris", "size": "43KB"},
+							{"id": 30000002, "name": "cilium", "size": "16KB"},
+							{"id": 30000003, "name": "articulus", "size": "51KB"},
+							{"id": 30000004, "name": "alternus", "size": "75KB"},
+							{"id": 30000005, "name": "acerbus", "size": "70KB"},
+							{"id": 30000006, "name": "damnum", "size": "KB"},
+							{"id": 30000007, "name": "fimbriae", "size": "120KB"},
+							{"id": 30000008, "name": "monticellus", "size": "24KB"},
+							{"id": 30000009, "name": "particella", "size": "84KB"},
+							{"id": 30000010, "name": "septem", "size": "94KB"}
+						]
+						},
+						{"id": 3000002, "name": "tribus", "size": "0KB"}
+					]
+					},
+					{"id": 100004, "name": "vestigium", "size": "0KB",
+					"children": [
+						{"id": 4000001, "name": "parvus", "size": "0KB",
+						"children": [
+							{"id": 40000001, "name": "morbus", "size": "126KB"}
+						]
+						},
+						{"id": 4000002, "name": "lutum", "size": "11KB"}
+					]
+					},
+					{"id": 100004, "name": "granulum", "size": "45KB"},
+					{"id": 100005, "name": "flocculus", "size": "84KB"},
+					{"id": 100006, "name": "ebrius", "size": "27KB"},
+					{"id": 100007, "name": "curtus", "size": "35KB"}
+				]
+				},
+				{"id": 10002, "name": "carduus", "size": "67KB"},
+				{"id": 10003, "name": "asper", "size": "76KB"}
+			]
+			},
+			{"id": 1002, "name": "stipes", "size": "96KB"},
+			{"id": 1003, "name": "foliolum", "size": "25KB"},
+			{"id": 1004, "name": "caballus", "size": "73KB"}
+		]
+		}
+	]
+}

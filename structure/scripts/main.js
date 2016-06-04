@@ -9,7 +9,7 @@ require.config({
         handlebars: "lib/handlebars-v4.0.5",
         // add files here
         fileApp: "fileApp",
-        //myView: "filesystem/myView",
+        //myView: ".../myView",
     },
     shim: {
     	backbone: {

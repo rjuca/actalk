@@ -1,12 +1,15 @@
-define(["marionette"],
-	function (Mnt) {
-		var app = new Mnt.Application();
-		app.addRegions({
-			body: "body"
-		});
-		app.on("start", function() {
-			// begin here
-		});
-		return app;
-	}
+define(["marionette",
+        "views/LayoutView"],
+    function (Mnt, LayoutView) {
+        var app = new Mnt.Application();
+
+        app.addRegions({
+            body: "#app"
+        });
+
+        app.on("start", function () {
+            app.body.show(new LayoutView());
+        });
+        return app;
+    }
 );

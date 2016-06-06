@@ -1,32 +1,49 @@
 <html>
 <head>
-	<title>AC Talk (Basic Structure)</title>
-	<script data-main="scripts/main" src="scripts/lib/require.js"></script>
-	<style type="text/css">
-		body {
-			font-family: Verdana, Arial;
-		}
-		li span {
-			display: block;
-			background-repeat: no-repeat;
-			background-size: 22px 22px;
-			margin: 3px 0;
-			padding-left: 30px;
-			height: 25px;
-		}
-		.folder-icon {
-			background-image: url('img/folder.png');
-		}
-		.file-icon {
-			background-image: url('img/file.png');
-		}
-		li {
-			list-style-type: none;
-		}
-		ul {
-			padding-left: 20px;
-		}
-	</style>
+    <title>AC Talk (Basic Structure)</title>
+    <script data-main="scripts/main" src="scripts/lib/require.js"></script>
+    <style type="text/css">
+        body {
+            font-family: Verdana, Arial;
+        }
+
+        li span {
+            display: block;
+            background-repeat: no-repeat;
+            background-size: 22px 22px;
+            margin: 3px 0;
+            padding-left: 30px;
+            height: 25px;
+        }
+
+        .folder-icon {
+            background-image: url('img/folder.png');
+        }
+
+        .file-icon {
+            background-image: url('img/file.png');
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
 </head>
-<body/>
+
+<body>
+<div id="app"></div>
+
+<script type="template" id="mainTemplate">
+    <div id="content"></div>
+</script>
+
+<script type="template" id="items">
+    <%= id %>
+    <ul class="subcategories"></ul>
+</script>
+</body>
 </html>

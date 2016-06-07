@@ -13,15 +13,19 @@
             background-size: 22px 22px;
             margin: 3px 0;
             padding-left: 30px;
-            height: 25px;
+            height: 35px;
         }
 
         .folder-icon {
-            background-image: url('img/folder.png');
+            background: url('img/folder.png') no-repeat;
+        }
+
+        span.itemName {
+            margin-left: 10px;
         }
 
         .file-icon {
-            background-image: url('img/file.png');
+            background: url('img/file.png') no-repeat;
         }
 
         li {
@@ -42,7 +46,7 @@
 </script>
 
 <script type="template" id="items">
-    <%= id %>
+	<span class="itemName"><%= name %></span>
     <ul class="subcategories"></ul>
 </script>
 </body>

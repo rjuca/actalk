@@ -4,16 +4,18 @@ define(["marionette",
     return Mnt.CompositeView.extend({
         template: "#items",
         tagName: "li",
+        className: "folder-icon",
         childViewContainer: ".subcategories",
         initialize: function (options) {
             _.extend(this, options);
-            if (_.isEmpty(this.collection)) {
-                var children = this.model.get("children");
-                this.collection = _.isEmpty(children) ? null : new FileSystemCollection(children)
-            }
-        },
-        onRender: function () {
 
+			var children = this.model.get("children");
+
+			if (_.isEmpty(this.collection) && !_.isEmpty(children)) {
+				this.collection = new FileSystemCollection(children);
+            } else {
+				this.$el.removeClass('folder-icon').addClass('file-icon');
+			}
         }
     });
 });

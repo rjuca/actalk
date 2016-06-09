@@ -28,5 +28,19 @@
 		}
 	</style>
 </head>
-<body/>
+<body>
+</body>
+	<script id="global" type="text/x-handlebars-template">
+		<div id="header"/>
+		<div id="content"/>
+	</script>
+	<script id="item" type="text/x-handlebars-template">
+	        {{#if children}}
+		   	 	<span class="folder-icon">{{name}}</span>
+		   	 {{else}}
+                <span class="file-icon">{{name}}</span>
+            {{/if}}
+			<ul class="subcategories"/>
+	</script>
+</body>
 </html>

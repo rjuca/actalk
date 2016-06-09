@@ -1,0 +1,19 @@
+<script id="item" type="text/x-handlebars-template">
+	<span class="item">
+		<input type="checkbox" class="suppressedField">
+		<div class="name" style="{{addFileSystemStyle}}">
+			{{#if hasChildren}}
+				{{#if children}}
+					<img class="file-icon">
+				{{else}}
+					<img class="folder-icon">
+				{{/if}}
+			{{/if}}
+			<span class="category-name">{{name}}</span>
+		</div>
+		<div class="category-id">
+			<a href="#">{{id}}</a>
+		</div>
+	</span>
+	<ul class="subcategories"/>
+</script>

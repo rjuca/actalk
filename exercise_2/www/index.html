@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Marionette Infinite Composite View</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="lib/underscore.js"></script>
+    <script src="lib/jquery.js"></script>
+    <script src="lib/backbone.js"></script>
+    <script src="lib/backbone.marionette.js"></script>
+    <script src="lib/backbone.babysitter.js"></script>
+    <script src="lib/backbone.wreqr.js"></script>
+
+    <script id="composite-template" type="text/x-handlebars-template">
+        <span class="item-id"><%= id %></span> -
+        <span class="item-value"><%= name %></span>
+        <ul></ul>
+    </script>
+
+    <script id="collection-template" type="text/x-handlebars-template">
+        <div class="collection-container"></div>
+    </script>
+    <script id="item-template" type="text/x-handlebars-template">
+        <%= value %>
+        </ul>
+    </script>
+</head>
+
+<body>
+<div id="header"></div>
+<div id="content"></div>
+
+<script src="js/entities/ItemModel.js"></script>
+<script src="js/entities/ItemCollection.js"></script>
+
+<!--<script src="js/LeafView.js"></script>-->
+<script src="js/TreeAndLeafView.js"></script>
+<script src="js/TreeView.js"></script>
+
+<script src="js/LayoutView.js"></script>
+
+</body>
+
+</html>
